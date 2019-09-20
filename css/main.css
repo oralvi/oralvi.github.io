@@ -150,18 +150,6 @@ template {
   background: #262a30;
   color: #fff;
 }
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url("/images/backgroundart.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  #footer a {
-    color: #eee;
-  }
-}
 h1,
 h2,
 h3,
@@ -1593,6 +1581,18 @@ article:last-child .post-eof {
   align-self: center;
   height: 30px;
 }
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/backgroundart.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  #footer a {
+    color: #eee;
+  }
+}
 .sidebar {
   background: #222;
   bottom: 0;
@@ -1673,7 +1673,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #522dff;
+  background: #2871ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;

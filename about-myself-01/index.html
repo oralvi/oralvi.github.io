@@ -533,6 +533,13 @@ NexT.utils.loadComments(document.querySelector('#waline-comments'), () => {
   NexT.utils.getScript('//unpkg.com/@waline/client@v2/dist/waline.js', () => {
     Waline.init({
         el: '#waline-comments',
+        comment: true,
+        pageview: true,
+        reaction: true,
+        emoji: [
+      '//unpkg.com/@waline/emojis@1.2.0/qq,
+      '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+    ],
       serverURL: 'https://commentsapi.oralvi.com'
     });
   }, window.waline);
